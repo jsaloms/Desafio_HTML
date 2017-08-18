@@ -34,6 +34,11 @@ a:link, a:active, a:visited{
 	width: 60vw;
 	display: inline-block;
 }
+.area4{
+	width: 23.5vw;
+	display: inline-block;
+	margin-left: 1vw;
+}
 ul.inline li, ol.inline li{
 	display: inline-block;
 	margin-right: 15px;
@@ -56,12 +61,13 @@ ul.menu{
 .header{
 	width: 1600px;
 	height: 85px;
-	background: #000000;
+	background: rgba(0,0,0,0.7);
 	position: fixed;
 	width: 100vw;
+	
 }
 .logo{
-	padding-top: 15px;
+	padding-top: 13px;
 	padding-left: 20px;
 }
 .section{
@@ -124,4 +130,105 @@ p.material2{
 }
 .area1 img{
 	padding-left: 10px;
+}
+.opcao1,.opcao2{
+	text-align: center;
+	height: 50vh;
+	display: inline-block;
+}
+.img1,.img2{
+	background-color: #FF5555;
+	height: 35vh;
+}
+.img3{
+	background-color: #66CCFF;
+	height:35vh;
+}
+.img4{
+	background-color: #FFCC00;
+	height: 35vh; 
+}
+a.botao{
+	background: #FF6600;
+	padding: 5px 10px;
+	border-radius: 3px;
+	color: #ebebeb;
+	cursor: pointer;
+	margin: 5px 0;
+	display: inline-block;
+	border: none;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.img1 p,.img2 p,.img3 p,.img4 p,.img5 p,.img6 p,.img7 p,.img8 p{
+	text-align: left;
+	padding-left: 1vw;
+	font-size: 16px;
+}
+.info p{
+	text-align: center;
+	color: #000000;
+	padding-top: 2vh;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 1vh;
+}
+p.titulo{
+	color: #FF4500;
+	font-size: 35px;
+	text-align: center;
+	letter-spacing: 8px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+a.mais{
+	background: #000000;
+	padding: 5px 65px;
+	border-radius: 3px;
+	color: #ebebeb;
+	cursor: pointer;
+	margin: 5px 0;
+	display: inline-block;
+	border: none;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+.article2,.article3{
+	text-align: center;
+}
+p.titulo2{
+	color: #993333;
+	font-size: 35px;
+	text-align: center;
+	letter-spacing: 8px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+a.botao2{
+	background: #993333;
+	padding: 5px 10px;
+	border-radius: 3px;
+	color: #ebebeb;
+	cursor: pointer;
+	margin: 5px 0;
+	display: inline-block;
+	border: none;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.img6,.img8{
+	background-color: #993333;
+	height: 35vh;
+}
+.img5{
+	background-color: #CC0000;
+	height:35vh;
+}
+.img7{
+	background-color: #9933FF;
+	height: 35vh; 
 }
