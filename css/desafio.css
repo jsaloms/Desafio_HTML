@@ -21,26 +21,22 @@ a:link, a:active, a:visited{
 	padding: 5px 0;
 }
 .coluna{
-	padding: 0 10px;
 	float: left;
 }
 .area1{
-	width: 33,3vw;
-	float: left;
+	width: 40vw;
+	display: inline-block;
 }
 .area2{
 	width: 100vw;
 }
 .area3{
-	width: 66,6vw;
-}
-/* estilos reutilizáveis */
-ul li, ol li{
-	margin-bottom: 5px;
+	width: 60vw;
+	display: inline-block;
 }
 ul.inline li, ol.inline li{
 	display: inline-block;
-	margin-right: 25px;
+	margin-right: 15px;
 	padding-top: 15px;
 }
 .menu1{
@@ -55,7 +51,7 @@ li.caixa{
 	text-align: center;
 }
 ul.menu{
-	padding-right: 15px;
+	padding-right: 25px;
 }
 .header{
 	width: 1600px;
@@ -64,8 +60,8 @@ ul.menu{
 	position: fixed;
 	width: 100vw;
 }
-img.logo{
-	padding-top: 27px;
+.logo{
+	padding-top: 15px;
 	padding-left: 20px;
 }
 .section{
@@ -82,10 +78,6 @@ h1{
 	font-size: 52px;
 	padding-top: 30vh;
 	padding-bottom: 45vh;
-}
-.article{
-	font-size: 25px;
-	display: inline-block;
 }
 .footer{
 	background: #000000;
@@ -116,36 +108,20 @@ p.footer{
 .inline{
 	display: inline-block;
 }
-h3.inline{
-	display: inline-block;
-}
-ul.material li{
-	clear: both;
-	display: block;
-	overflow: hidden;
-	margin-bottom: 20px;
-	float: right;
-}
-.material h3{
+p.material1{
 	color: #FF4500;
-	text-align: center;
 	font-size: 35px;
-	letter-spacing: 5px;
+	text-align: center;
+	letter-spacing: 8px;
+	padding-bottom: 30px;
+	font-weight: bold;
 }
-.material p{
+p.material2{
 	color: #000000;
 	text-align: justify;
 	font-size: 15px;
+	font-weight: bold;
 }
-.caixa1{
-	background-color: red;
-	display: inline-block;
-}
-.caixa2{
-	background-color: blue;
-	float: right;
-	display: inline-block;
-}
-.caixa0{
-	background-color: orange;
+.area1 img{
+	padding-left: 10px;
 }
