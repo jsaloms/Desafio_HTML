@@ -1,0 +1,151 @@
+*{
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;	
+}
+a:link, a:active, a:visited{
+	color: #ffffff;
+	text-decoration: none;
+}
+.linha{
+	margin: 0 auto;
+	overflow: auto;
+	padding: 5px 0;
+}
+.coluna{
+	padding: 0 10px;
+	float: left;
+}
+.area1{
+	width: 33,3vw;
+	float: left;
+}
+.area2{
+	width: 100vw;
+}
+.area3{
+	width: 66,6vw;
+}
+/* estilos reutilizáveis */
+ul li, ol li{
+	margin-bottom: 5px;
+}
+ul.inline li, ol.inline li{
+	display: inline-block;
+	margin-right: 25px;
+	padding-top: 15px;
+}
+.menu1{
+	float: right;
+}
+ul.inline li{
+	display: inline;
+}
+li.caixa{
+	width: 150px;
+	height: 60px;
+	text-align: center;
+}
+ul.menu{
+	padding-right: 15px;
+}
+.header{
+	width: 1600px;
+	height: 85px;
+	background: #000000;
+	position: fixed;
+	width: 100vw;
+}
+img.logo{
+	padding-top: 27px;
+	padding-left: 20px;
+}
+.section{
+	background-image: url('../images/banner.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100vw;
+}
+h1{
+	color: #ffffff;
+}
+.banner{
+	text-align: center;
+	font-size: 52px;
+	padding-top: 30vh;
+	padding-bottom: 45vh;
+}
+.article{
+	font-size: 25px;
+	display: inline-block;
+}
+.footer{
+	background: #000000;
+	color: #ebebeb;
+	text-align: center;
+	width: 100vw;
+	height: 45px;
+}
+p.footer{
+	padding-top: 25px;
+}
+.menu{
+	text-align: right;
+	margin-top: 25px;
+	font-size: 18px;
+}
+.menu li a:hover{
+	text-decoration: none;
+}
+.cursos{
+	text-align: center;
+	margin-top: 25px;
+	font-size: 25px;
+}
+.cursos li a:hover{
+	text-decoration: none;
+}
+.inline{
+	display: inline-block;
+}
+h3.inline{
+	display: inline-block;
+}
+ul.material li{
+	clear: both;
+	display: block;
+	overflow: hidden;
+	margin-bottom: 20px;
+	float: right;
+}
+.material h3{
+	color: #FF4500;
+	text-align: center;
+	font-size: 35px;
+	letter-spacing: 5px;
+}
+.material p{
+	color: #000000;
+	text-align: justify;
+	font-size: 15px;
+}
+.caixa1{
+	background-color: red;
+	display: inline-block;
+}
+.caixa2{
+	background-color: blue;
+	float: right;
+	display: inline-block;
+}
+.caixa0{
+	background-color: orange;
+}
