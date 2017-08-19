@@ -36,8 +36,12 @@ a:link, a:active, a:visited{
 }
 .area4{
 	width: 23.5vw;
+	height: 50vh;
 	display: inline-block;
 	margin-left: 1vw;
+	border: solid;
+	border-width: thin;
+	border-color: #CCCCCC;
 }
 ul.inline li, ol.inline li{
 	display: inline-block;
@@ -49,6 +53,9 @@ ul.inline li, ol.inline li{
 }
 ul.inline li{
 	display: inline;
+}
+.opcoes{
+	padding-top: 70px;
 }
 li.caixa{
 	width: 150px;
@@ -85,6 +92,9 @@ h1{
 	padding-top: 30vh;
 	padding-bottom: 45vh;
 }
+.banner img{
+	width: 3%;
+}
 .footer{
 	background: #000000;
 	color: #ebebeb;
@@ -103,23 +113,26 @@ p.footer{
 .menu li a:hover{
 	text-decoration: none;
 }
-.cursos{
-	text-align: center;
-	margin-top: 25px;
-	font-size: 25px;
-}
-.cursos li a:hover{
-	text-decoration: none;
-}
 .inline{
 	display: inline-block;
+}
+.imagem{
+	display: block;
+}
+.cur{
+	display: inline-block;
+	border: solid;
+	border-color: #ffffff;
+	font-size: 30px;
+	padding: 10px;
+	text-align: center;
 }
 p.material1{
 	color: #FF4500;
 	font-size: 35px;
 	text-align: center;
 	letter-spacing: 8px;
-	padding-bottom: 30px;
+	padding: 10px 10px;
 	font-weight: bold;
 }
 p.material2{
@@ -137,7 +150,7 @@ p.material2{
 	display: inline-block;
 }
 .img1,.img2{
-	background-color: #FF5555;
+	background-color: #CC6666;
 	height: 35vh;
 }
 .img3{
@@ -185,7 +198,7 @@ p.titulo{
 }
 a.mais{
 	background: #000000;
-	padding: 5px 65px;
+	padding: 10px 75px;
 	border-radius: 3px;
 	color: #ebebeb;
 	cursor: pointer;
@@ -197,6 +210,11 @@ a.mais{
 }
 .article2,.article3{
 	text-align: center;
+	border-top: solid;
+	border-top-width: thin;
+	border-color: #CCCCCC;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 p.titulo2{
 	color: #993333;
@@ -231,4 +249,8 @@ a.botao2{
 .img7{
 	background-color: #9933FF;
 	height: 35vh; 
+}
+.vermais{
+	padding-top: 55vh;
+	padding-bottom: 10px;
 }
